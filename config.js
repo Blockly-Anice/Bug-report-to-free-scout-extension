@@ -2,17 +2,17 @@
 
 class Config {
   constructor() {
-    // this.defaults = {
-    //   freescoutUrl: '',
-    //   apiKey: '',
-    //   mailboxId: '',
-    //   defaultAssignee: '',
-    //   recordAudio: true,
-    //   maxRecordingTime: 30,
-    //   videoQuality: 'medium',
-    //   includeHar: true,
-    //   maxFileSize: 50 * 1024 * 1024 // 50 MB in bytes
-    // };
+    this.defaults = {
+      freescoutUrl: '',
+      apiKey: '',
+      mailboxId: '',
+      defaultAssignee: '',
+      recordAudio: true,
+      maxRecordingTime: 30,
+      videoQuality: 'medium',
+      includeHar: true,
+      maxFileSize: 50 * 1024 * 1024 // 50 MB in bytes
+    };
     this.baseConfig = null; // Loaded from freescout.config.json
   }
 
